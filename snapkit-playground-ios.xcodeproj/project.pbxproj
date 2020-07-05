@@ -99,13 +99,7 @@
 		747A1CC124B1DAF400AF37D9 /* snapkit-playground-ios */ = {
 			isa = PBXGroup;
 			children = (
-				747A1CC224B1DAF400AF37D9 /* AppDelegate.swift */,
-				747A1CC424B1DAF400AF37D9 /* SceneDelegate.swift */,
-				747A1CC624B1DAF400AF37D9 /* ContentView.swift */,
-				747A1CC824B1DAF600AF37D9 /* Assets.xcassets */,
-				747A1CCD24B1DAF600AF37D9 /* LaunchScreen.storyboard */,
-				747A1CD024B1DAF600AF37D9 /* Info.plist */,
-				747A1CCA24B1DAF600AF37D9 /* Preview Content */,
+				747A1CF224B1DDDB00AF37D9 /* SupportingFiles */,
 			);
 			path = "snapkit-playground-ios";
 			sourceTree = "<group>";
@@ -134,6 +128,20 @@
 				747A1CE624B1DAF700AF37D9 /* Info.plist */,
 			);
 			path = "snapkit-playground-iosUITests";
+			sourceTree = "<group>";
+		};
+		747A1CF224B1DDDB00AF37D9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				747A1CC224B1DAF400AF37D9 /* AppDelegate.swift */,
+				747A1CC424B1DAF400AF37D9 /* SceneDelegate.swift */,
+				747A1CC624B1DAF400AF37D9 /* ContentView.swift */,
+				747A1CC824B1DAF600AF37D9 /* Assets.xcassets */,
+				747A1CCD24B1DAF600AF37D9 /* LaunchScreen.storyboard */,
+				747A1CD024B1DAF600AF37D9 /* Info.plist */,
+				747A1CCA24B1DAF600AF37D9 /* Preview Content */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,9 +443,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"snapkit-playground-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"snapkit-playground-ios/SupportingFiles/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "snapkit-playground-ios/Info.plist";
+				INFOPLIST_FILE = "snapkit-playground-ios/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,9 +462,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"snapkit-playground-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"snapkit-playground-ios/SupportingFiles/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "snapkit-playground-ios/Info.plist";
+				INFOPLIST_FILE = "snapkit-playground-ios/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +482,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "snapkit-playground-iosTests/Info.plist";
+				INFOPLIST_FILE = "snapkit-playground-iosTests/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,7 +503,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "snapkit-playground-iosTests/Info.plist";
+				INFOPLIST_FILE = "snapkit-playground-iosTests/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -515,7 +523,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "snapkit-playground-iosUITests/Info.plist";
+				INFOPLIST_FILE = "snapkit-playground-iosUITests/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,7 +542,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "snapkit-playground-iosUITests/Info.plist";
+				INFOPLIST_FILE = "snapkit-playground-iosUITests/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
