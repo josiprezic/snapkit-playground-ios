@@ -1,0 +1,6 @@
+framework module Pods_snapkit_playground_iosTests {
+  umbrella header "Pods-snapkit-playground-iosTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

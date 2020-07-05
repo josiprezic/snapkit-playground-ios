@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_snapkit_playground_ios_snapkit_playground_iosUITests : NSObject
+@end
+@implementation PodsDummy_Pods_snapkit_playground_ios_snapkit_playground_iosUITests
+@end
