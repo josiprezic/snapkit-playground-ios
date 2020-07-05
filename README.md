@@ -2,7 +2,7 @@
 
 SnapKit playground is a helper project where you can write and quickly test your UIKit/SnapKit code changes using live preview mode. The goal of this project is to speed up the process of creating, modifying and testing UI changes.
 
-## Description
+## Contents
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
 - [SnapKit project](#snapkit-project)
