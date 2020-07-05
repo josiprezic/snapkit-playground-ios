@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		747A1CC324B1DAF400AF37D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A1CC224B1DAF400AF37D9 /* AppDelegate.swift */; };
 		747A1CC524B1DAF400AF37D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A1CC424B1DAF400AF37D9 /* SceneDelegate.swift */; };
-		747A1CC724B1DAF400AF37D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A1CC624B1DAF400AF37D9 /* ContentView.swift */; };
+		747A1CC724B1DAF400AF37D9 /* AppContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A1CC624B1DAF400AF37D9 /* AppContentView.swift */; };
 		747A1CC924B1DAF600AF37D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747A1CC824B1DAF600AF37D9 /* Assets.xcassets */; };
 		747A1CCC24B1DAF600AF37D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747A1CCB24B1DAF600AF37D9 /* Preview Assets.xcassets */; };
 		747A1CCF24B1DAF600AF37D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747A1CCD24B1DAF600AF37D9 /* LaunchScreen.storyboard */; };
 		747A1CDA24B1DAF600AF37D9 /* snapkit_playground_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A1CD924B1DAF600AF37D9 /* snapkit_playground_iosTests.swift */; };
 		747A1CE524B1DAF700AF37D9 /* snapkit_playground_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A1CE424B1DAF700AF37D9 /* snapkit_playground_iosUITests.swift */; };
+		747A1CF424B1DFEF00AF37D9 /* ContentContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A1CF324B1DFEF00AF37D9 /* ContentContainerView.swift */; };
+		747A1CF724B1E12B00AF37D9 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A1CF624B1E12B00AF37D9 /* BaseView.swift */; };
+		747A1CF924B1E4DE00AF37D9 /* ContentContainerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A1CF824B1E4DE00AF37D9 /* ContentContainerPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		747A1CBF24B1DAF400AF37D9 /* snapkit-playground-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snapkit-playground-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747A1CC224B1DAF400AF37D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		747A1CC424B1DAF400AF37D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		747A1CC624B1DAF400AF37D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		747A1CC624B1DAF400AF37D9 /* AppContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentView.swift; sourceTree = "<group>"; };
 		747A1CC824B1DAF600AF37D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		747A1CCB24B1DAF600AF37D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		747A1CCE24B1DAF600AF37D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		747A1CE024B1DAF700AF37D9 /* snapkit-playground-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snapkit-playground-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747A1CE424B1DAF700AF37D9 /* snapkit_playground_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapkit_playground_iosUITests.swift; sourceTree = "<group>"; };
 		747A1CE624B1DAF700AF37D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747A1CF324B1DFEF00AF37D9 /* ContentContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentContainerView.swift; sourceTree = "<group>"; };
+		747A1CF624B1E12B00AF37D9 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		747A1CF824B1E4DE00AF37D9 /* ContentContainerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentContainerPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				747A1CF224B1DDDB00AF37D9 /* SupportingFiles */,
+				747A1CF524B1E0FD00AF37D9 /* BaseViews */,
+				747A1CF824B1E4DE00AF37D9 /* ContentContainerPreview.swift */,
 			);
 			path = "snapkit-playground-ios";
 			sourceTree = "<group>";
@@ -135,13 +143,22 @@
 			children = (
 				747A1CC224B1DAF400AF37D9 /* AppDelegate.swift */,
 				747A1CC424B1DAF400AF37D9 /* SceneDelegate.swift */,
-				747A1CC624B1DAF400AF37D9 /* ContentView.swift */,
+				747A1CC624B1DAF400AF37D9 /* AppContentView.swift */,
+				747A1CF324B1DFEF00AF37D9 /* ContentContainerView.swift */,
 				747A1CC824B1DAF600AF37D9 /* Assets.xcassets */,
 				747A1CCD24B1DAF600AF37D9 /* LaunchScreen.storyboard */,
 				747A1CD024B1DAF600AF37D9 /* Info.plist */,
 				747A1CCA24B1DAF600AF37D9 /* Preview Content */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		747A1CF524B1E0FD00AF37D9 /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				747A1CF624B1E12B00AF37D9 /* BaseView.swift */,
+			);
+			path = BaseViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +294,10 @@
 			files = (
 				747A1CC324B1DAF400AF37D9 /* AppDelegate.swift in Sources */,
 				747A1CC524B1DAF400AF37D9 /* SceneDelegate.swift in Sources */,
-				747A1CC724B1DAF400AF37D9 /* ContentView.swift in Sources */,
+				747A1CF724B1E12B00AF37D9 /* BaseView.swift in Sources */,
+				747A1CF424B1DFEF00AF37D9 /* ContentContainerView.swift in Sources */,
+				747A1CF924B1E4DE00AF37D9 /* ContentContainerPreview.swift in Sources */,
+				747A1CC724B1DAF400AF37D9 /* AppContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
